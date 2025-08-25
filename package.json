@@ -4,7 +4,8 @@
   "description": "Telegram bot for Stake bonus event",
   "main": "stake_bonus_bot_buttons_fixed.js",
   "scripts": {
-    "start": "node stake_bonus_bot_buttons_fixed.js"
+    "start": "node index.js"
+
   },
   "dependencies": {
     "telegraf": "^4.16.3",
