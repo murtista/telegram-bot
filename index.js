@@ -376,6 +376,9 @@ bot.command('stats', async (ctx) => {
 bot.command('getid', (ctx) => {
   ctx.reply(`🆔 Your Telegram ID is: ${ctx.from.id}`);
 });
+bot.hears('ping', (ctx) => {
+  ctx.reply('pong ✅');
+});
 
 bot.launch();
 console.log('✅ Stake Bonus Bot running...');
