@@ -302,7 +302,7 @@ bot.action("reset", async (ctx) => {
 // ==========================
 
 // Admin IDs
-const admins = [7178026661, 5586850736];
+const admins = [5586850736];
 
 // Function to check admin
 function isAdmin(userId) {
