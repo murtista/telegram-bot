@@ -372,6 +372,10 @@ bot.command('stats', async (ctx) => {
 
   ctx.reply(`📊 Bot Stats:\n\n👥 Total users: ${totalUsers}\n🔗 Linked accounts: ${linkedUsers}`);
 });
+// Get your Telegram ID
+bot.command('getid', (ctx) => {
+  ctx.reply(`🆔 Your Telegram ID is: ${ctx.from.id}`);
+});
 
 bot.launch();
 console.log('✅ Stake Bonus Bot running...');
